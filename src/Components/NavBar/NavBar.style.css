@@ -1,0 +1,11 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+._ul{
+    position: none;
+}
+.nav-item{
+    margin-left: 2rem;
+}

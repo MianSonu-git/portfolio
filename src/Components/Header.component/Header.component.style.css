@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.bodyContainer{
+    width: 100%;
+    height: 50vw;
+    margin-top: 100px;
+    display: inline-flex;
+    flex-direction: row;
+}
+.bodyContainer .leftSide{
+    width:52.5%;
+    height: 50vw;
+}
+.bodyContainer .rightSide{
+    width:52.5%;
+    height: 50vw;
+    background-image: url("../../images/rightimage.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    z-index: 10;
+    overflow: hidden;
+}
+.bodyContainer .leftSide .leftText{
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    align-items: center;
+}
+.bodyContainer .leftSide .leftText .btn{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 10rem;
+}
+.bodyContainer .leftSide .leftText .textContent{
+    font-family: 'Courier New', Courier, monospace;
+    font-variant:normal;
+    letter-spacing: 1px;
+    margin-top: 20px;
+    font-size: 1.2rem;
+}
+.spanText{
+    color: purple;
+    font-style: italic;
+}
