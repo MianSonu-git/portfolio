@@ -13,6 +13,10 @@
     width:52.5%;
     height: 50vw;
 }
+.bodyContainer .true{
+    background-color: black;
+    color: white;
+}
 .bodyContainer .rightSide{
     width:52.5%;
     height: 50vw;
